@@ -123,9 +123,10 @@ Logo()
   "Cooler's Simple Cookie Eater v0.1",
  };
  while(c^8)
-  puts(banner[c]),c++;
+ {
+	 puts(banner[c]),c++;
 }
-
+}
 void
 Usage()
 {
